@@ -44,7 +44,7 @@ const Header = () => {
   return (
     <div className="container my-3 my-sm-5 card py-4 px-3 shadow rounded-5 ">
       <h5 className="text-center text-uppercase bg-info p-2 py-3 fw-bold text-white rounded-5 shadow">
-        Age based voting system
+        Age based voting Calculation
       </h5>
       
       <form onSubmit={handleSubmit} className="mx-3">
