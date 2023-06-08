@@ -42,13 +42,11 @@ const Header = () => {
   };
 
   return (
-    <div className="container my-3">
-      <h3 className="text-center my-4 text-uppercase title">
-        If else condition
-      </h3>
-      <h5 className="text-center bg-info p-2 fw-bold text-white rounded-5 shadow">
+    <div className="container my-3 my-sm-5 card py-4 px-3 shadow rounded-5 ">
+      <h5 className="text-center text-uppercase bg-info p-2 py-3 fw-bold text-white rounded-5 shadow">
         Age based voting system
       </h5>
+      
       <form onSubmit={handleSubmit} className="mx-3">
         <div className="text-start">
           <div className=" text-center">
@@ -83,7 +81,7 @@ const Header = () => {
             </h6>
             <div>
               <input type="checkbox" name="valid" id="valid" />
-              <span className="mx-2 h6">Accept terms and conditions</span>
+              <span className="mx-2 h6 text-muted">Accept terms and conditions</span>
             </div>
             <button
               className="btn btn-primary p-2 text-uppercase fw-bold mt-3 shadow px-4 rounded-pill"
