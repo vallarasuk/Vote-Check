@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Vote-Check/static/css/main.d20202a4.css",
+    "main.js": "/Vote-Check/static/js/main.acfdf27b.js",
+    "index.html": "/Vote-Check/index.html",
+    "main.d20202a4.css.map": "/Vote-Check/static/css/main.d20202a4.css.map",
+    "main.acfdf27b.js.map": "/Vote-Check/static/js/main.acfdf27b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d20202a4.css",
+    "static/js/main.acfdf27b.js"
+  ]
+}
