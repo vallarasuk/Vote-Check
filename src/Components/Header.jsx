@@ -63,7 +63,7 @@ const Header = () => {
                 value={userName}
                 onChange={(e) => setUserName(e.target.value)}
                 style={{ fontSize: 18 }}
-                className="shadow border rounded-pill p-3 px-4 mt-3"
+                className="shadow border rounded-pill p-3 px-sm-4 mt-3"
                 pattern="[A-Za-z ]+"
                 title="Please enter only text characters"
               />
@@ -76,7 +76,7 @@ const Header = () => {
                 onChange={(e) => setUserAge(e.target.value)}
                 style={{ fontSize: 18 }}
                 maxLength={100}
-                className="shadow border px-4 rounded-pill p-3 mt-3"
+                className="shadow border px-sm-4  rounded-pill p-3 mt-3"
               />
             </div>
             <h6
@@ -107,6 +107,11 @@ const Header = () => {
           </div>
         </div>
       </form>
+      <div className="text-end">
+        <h6>
+          <a href="https://www.linkedin.com/in/vallarasu-k/" className="text-decoration-none text-secondary">Vallarasuk</a>
+        </h6>
+      </div>
     </div>
   );
 };
